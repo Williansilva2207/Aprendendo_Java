@@ -14,6 +14,7 @@ public class Cliente{
         Scanner scn = new Scanner(System.in);
         String Nam = scn.nextLine();
         this.nome = Nam;
+        scn.close();
     }
     public String getNome(String nome){
         return nome;

@@ -13,7 +13,5 @@ public class Emprestimo{
     public String getNumeroCartao(String numeroCartao){
         return numeroCartao;
     }
-    private int calcularMuta(){
-        
-    }
+    
 }

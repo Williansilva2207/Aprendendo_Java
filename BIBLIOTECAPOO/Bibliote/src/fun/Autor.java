@@ -1,5 +1,4 @@
 package fun;
-import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.List;
 public class Autor{
@@ -9,8 +8,8 @@ public class Autor{
    private List<Livro> livros;
 
 
-   public autor(String nome, String nascimento){
-      this.livros = livro;
+   public void autor(String nome, String nascimento){
+      this.nome = nome;
       this.nascimento = nascimento;
       this.livros = new ArrayList<>();
    }
@@ -22,8 +21,8 @@ public class Autor{
       return nascimento;
    }
    
-   public void adicionarLivros(Livro livros){
-      livros.add(livro);
+   public void adicionarLivros(Livro liv){
+      livros.add(liv);
    }
       
 }
