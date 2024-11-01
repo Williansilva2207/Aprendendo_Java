@@ -27,6 +27,6 @@
     //public double getBonificacao(){
     //   return this.salario * 0.1;
     //}
-    public abstract double getBonificacao();
+    public abstract double getBonificacao(); //Isso é um assinatura
     
 }
