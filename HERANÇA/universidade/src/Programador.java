@@ -8,5 +8,7 @@ public final class Programador extends Funcionario {
     public void setLinguagem(String linguagem) {
         this.linguagem = linguagem;
     }
-    
+    public double getBonificacao(){
+        return this.salario * 0.1;
+    }
 }

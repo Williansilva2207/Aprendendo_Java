@@ -8,5 +8,7 @@ public class Designer extends Funcionario {
     public void setSoftwareEdicao(String softwareEdicao) {
         this.softwareEdicao = softwareEdicao;
     }
-    
+    public double getBonificacao(){
+        return this.salario * 0.1;
+    }
 }

@@ -1,0 +1,4 @@
+Arquívo abstrato nã pode ser instanciado.
+
+Por que eu vou querer uma calsse abstrata?
+ - Ele tá padronizando as classes filhas. 
