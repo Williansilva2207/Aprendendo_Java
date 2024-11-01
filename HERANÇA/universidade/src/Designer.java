@@ -9,6 +9,7 @@ public class Designer extends Funcionario {
         this.softwareEdicao = softwareEdicao;
     }
     public double getBonificacao(){
-        return this.salario * 0.1;
+        double bonificacao = this.salario * 0.1;
+        return bonificacao;
     }
 }

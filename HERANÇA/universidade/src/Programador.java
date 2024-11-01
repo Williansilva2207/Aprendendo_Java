@@ -9,6 +9,7 @@ public final class Programador extends Funcionario {
         this.linguagem = linguagem;
     }
     public double getBonificacao(){
-        return this.salario * 0.1;
+        double bonificacao = this.salario * 0.2;
+        return bonificacao;
     }
 }
