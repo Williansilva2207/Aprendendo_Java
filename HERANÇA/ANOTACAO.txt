@@ -2,3 +2,11 @@ Arquívo abstrato nã pode ser instanciado.
 
 Por que eu vou querer uma calsse abstrata?
  - Ele tá padronizando as classes filhas. 
+
+@override: estou criando um método sobrescrito
+
+sobrecarga x sobrescrito: Uma é o mesmo name com parâmetro diferentes e o outro é a mesma assinatura.
+
+final : crio uma constante até no método
+
+Polimorfismo : Capacidade de um classe se comportar de diferentes formas;
