@@ -7,5 +7,7 @@ public class App {
        funcionario1.setSalario(1000.50);
        GeradorDeRelatorio relatorio = new GeradorDeRelatorio();
        relatorio.adiciona(funcionario1);
+       // Extends só funciona para uma classe
+       // interface só usa assinatura
     } 
 }
